@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🍿 Movie Picker 🎀</h1>
+
+    <div class="add-box">
+        <input id="movieInput" placeholder="Ajouter une série ou un film">
+        <button onclick="addMovie()">+</button>
+    </div>
+
+    <ul id="movieList"></ul>
+
+    <canvas id="wheel" width="500" height="500"></canvas>
+
+    <button id="spinBtn">🎡 Lancer la roue</button>
+
+    <h2 id="result"></h2>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
